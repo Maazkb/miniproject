@@ -1,0 +1,156 @@
+ <style>
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:sans-serif;
+}
+    main {
+            width: 100%;
+        }
+
+        .header {
+            background-color: black;
+            color: #fff;
+            padding: 10px 0;
+            font-family: "Copperplate";
+            font-size: 15px;
+            text-align: center; 
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .nav-links {
+            margin-top: 20px; 
+            text-align: center;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin-right: 15px;
+            color: #fff;
+        }
+        .nav-links a {text-decoration: none;
+    color: #fff;
+    } 
+    .nav-links a:hover{text-decoration: underline;
+font-weight: bold;}
+
+.manafacturer-list nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+.banner{position: relative;
+  text-align: center;
+  color: white;
+}
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 40px;
+  font-family: "Copperplate";
+    font-size: 40px;
+font-weight: bold;
+}
+.topleftdetails {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  font-size: 20px;
+}
+ .box {
+            width: 200px;
+            top: 130px;
+            left: 40px;
+            border-radius: 15px;
+            position: absolute;
+            height: 50px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            line-height: 45px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .box:hover {
+            background-color: darkred;
+        }
+        .box a{color: white;
+text-decoration: none;}
+.banner img {
+    width: 100%;
+    height: 500px;
+    padding: 0px;
+    opacity: 0.86;
+}
+h2 {
+    margin-bottom: 20px;
+    font-family: "Copperplate";
+    font-size: 30px;
+}
+
+.manufacturer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0;
+}
+
+.manufacturer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+.manufacturer-item img {
+    max-width: 100px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+
+
+.manufacturer-item a {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+
+}
+.manufacturer-item a:hover{text-decoration: underline;
+font-weight: bold;}
+.manufacturer-item img:hover{background-color: #ccc;}
+
+.footer nav li {
+    display: inline;
+    margin-right: 20px;
+
+}
+.icons{margin-left: 734px;}
+
+.footer nav a {
+    text-decoration: none;
+    color: #fff;
+   
+}
+.footer{text-align: left;
+    background-color: #333;
+        color: #fff;
+    padding: 10px 0;
+    }
+    .footer a:hover{text-decoration: underline;
+     font-weight: bold;}
+
+</style>

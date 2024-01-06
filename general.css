@@ -1,0 +1,146 @@
+ <style>
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:sans-serif;
+}
+    main {
+            width: 100%;
+        }
+
+        .header {
+            background-color: black;
+            color: #fff;
+            padding: 10px 0;
+            font-family: "Copperplate";
+            font-size: 15px;
+            text-align: center; 
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+.middle{ display: flex;
+            }
+
+        .header {
+            width: 100%;
+            background-color: black;
+            color: #fff;
+            padding: 10px 0;
+            font-family: "Copperplate";
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .nav-links  {
+    color: black;
+    font-size: 14px;
+    
+    } 
+    .nav-linkshome a{text-decoration: none;
+    color: black;
+    font-size: 18px;
+   }
+       .nav-links  a {text-decoration: none;
+    
+    color: black;
+    font-size: 14px;
+   
+    } 
+ .nav-links a:hover{text-decoration: underline;
+font-weight: bold;}
+.nav-linkshome a:hover{text-decoration: underline;
+}
+          .content div {
+            display: flex;
+            align-items: center;
+           
+        }
+
+        .content img {
+            margin-right: 10px;
+           
+        }
+        .content li { font-size: 4px;}
+.rightinfo{margin-left: 50px;
+width: 550px;}
+        .rightinfo ul {
+            list-style: none;
+           
+        }
+hr{margin-top: 8px;
+margin-bottom: 8px;}
+        
+        .sidebar {
+            width: 325px;
+            height: 500px;
+            background: #f4f4f4;
+            overflow-y: auto;
+            overflow: hidden;
+
+        }
+
+        .sidebar:hover{ overflow: auto;}
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            padding: 10px;
+        }
+          .box {
+            background-color: red;
+    padding: 4px;
+    color: white;
+    margin-top: 4px;
+    text-align: center;
+    font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.5s;
+             border-radius: 10px;
+             width: 105px;
+              height: 34px;
+        }
+
+        .box:hover {
+            background-color: darkred;
+        }
+
+
+        .image {width: 400px;
+            height: 210px;
+
+
+
+        }
+.footer nav li {
+    display: inline;
+    margin-right: 20px;
+
+}
+.icons{margin-left: 734px;}
+
+.footer nav a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.footer{text-align: left;
+    background-color: #333;
+        color: #fff;
+    padding: 10px 0;
+    }
+    .footer a:hover{text-decoration: underline;}
+
+</style>
